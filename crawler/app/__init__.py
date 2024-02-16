@@ -14,4 +14,4 @@ app = Flask(__name__)
 #************************************#
 #********* Importing routes *********#
 #************************************#
-from routes.startup_tunisia_scrapper_route import *
+from controllers.ScrapperController import *
